@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+    display: grid;
+    gap: 32px;
+    grid-column: 1/2;
+    padding: 16px;
+}
